@@ -7,9 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node / build folders
 node_modules
 dist
 dist-ssr
+build/
+
+# Local files
 *.local
 
 # Editor directories and files
@@ -36,6 +40,3 @@ dist-ssr
 # Windows junk files
 Thumbs.db
 desktop.ini
-
-# Optional build output
-build/
